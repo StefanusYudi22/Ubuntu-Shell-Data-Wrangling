@@ -36,8 +36,15 @@ and make `data_clean.csv` from both csv file which contail column as follows :
 - `product_name` : will be contain name of the purchased product
 
 ## Project Task
+1. Create `traffic-ecommerce-cleaner.sh` file then make it executable
+2. Create `data` directory folder at the same directory of `traffic-ecommerce-cleaner.sh`. Download `data.zip <https://drive.google.com/file/d/1rKkUQU-sXIDka3rVNBahp6q3wDhrPY-1/view>`_ from this google drive and place the zip file in the `data` folder 
+3. Make traffic-ecommerce-cleaner.sh’ with following flow chart
+
 ## How To Use This Program
 ## Suggestion
+
+`install documentation
+<https://matplotlib.org/stable/users/installing/index.html>`_
 
 
 
