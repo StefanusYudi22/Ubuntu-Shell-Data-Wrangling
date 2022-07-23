@@ -1,15 +1,15 @@
 <h1 align="center">Data Cleaning In Linux Shell</h1>
 
-<div style="text-align:justify; font-size:13px; font-family:Arial">
+<p align="justify">
 This repository contained necessary script to turn raw data (data.zip) about traffic ecommerce into data_clean.csv which contain purchasing data only. This project done by using csvkit python external library for data wrangling in linux shell and some basic linux terminal built in command. For executing this repository in your machine you must have python virtual environment . And activate it using source bin/activate from your local terminal. 
-</div>
+</p>
 
 ![Alt text](image/table.jpg)
 
 <font>Project Purpose</font>
 ===
 
-<p style="text-align:justify; font-size:13px; font-family:Arial">This project is to clean raw data from data.zip which contain two .csv file named “2019-Nov sample.csv” and “2019-Oct-sample.csv” which contain columns as follows :</p>
+<p align="justify">This project is to clean raw data from data.zip which contain two .csv file named “2019-Nov sample.csv” and “2019-Oct-sample.csv” which contain columns as follows :</p>
 
 ![Alt text](image/raw%20data.jpg)
 
