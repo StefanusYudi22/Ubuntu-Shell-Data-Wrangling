@@ -59,8 +59,8 @@ and then make `data_clean.csv` of purchasing data from both csv file which conta
 2.	install `csvkit` by executing `pip install csvkit` inside your terminal
 3.	install `unzip` command in linux terminal by executing `sudo apt-get install unzip` you will be prompted input password
 4.	clone this repository into your local machine, you will get `Ubuntu-Shell-Data-Wrangling` repository folder
-5.	download [data.zip](https://drive.google.com/file/d/1rKkUQU-sXIDka3rVNBahp6q3wDhrPY-1/view>) into your local machine and place in  `data` folder in the `Ubuntu-Shell-Data-Wrangling` repository folder
-6.  delete the already exists file `data_clean.csv` in cloned `data` directory folder
+5.	if you want to make new `data_clean.csv`, then download this [data.zip](https://drive.google.com/file/d/1rKkUQU-sXIDka3rVNBahp6q3wDhrPY-1/view>) into your local machine and place it in  folder `data` in the cloned `Ubuntu-Shell-Data-Wrangling` repository folder. Delete the already exists file `data_clean.csv` in cloned folder `data`.
+6. or if you want to use the already exist `data_clean.csv` just left step number 5
 7.	execute the `traffic-ecommerce-cleaner.sh`
 
 ![Alt text](image/result%20executed.jpg)
