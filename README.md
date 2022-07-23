@@ -1,4 +1,4 @@
-<h style="color:navy;font-family:Arial; font-size:40px;font-weight:bold;text-align:center">Data Cleaning In Linux Shell</h>
+<h1 style="font-family:Arial;text-align:center;color:navy">Data Cleaning In Linux Shell</h1>
 
 <div style="text-align:justify; font-size:13px; font-family:Arial">
 This repository contained necessary script to turn raw data (data.zip) about traffic ecommerce into data_clean.csv which contain purchasing data only. This project done by using csvkit python external library for data wrangling in linux shell and some basic linux terminal built in command. For executing this repository in your machine you must have python virtual environment . And activate it using source bin/activate from your local terminal. 
