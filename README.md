@@ -1,7 +1,8 @@
-<p style="color:navy;font-family:Arial; font-size:40px;font-weight:bold;text-align:center">Data Cleaning In Linux Shell</p>
+<h style="color:navy;font-family:Arial; font-size:40px;font-weight:bold;text-align:center">Data Cleaning In Linux Shell</h>
 
-<p style="text-align:justify; font-size:13px; font-family:Arial">
-This repository contained necessary script to turn raw data (data.zip) about traffic ecommerce into data_clean.csv which contain purchasing data only. This project done by using csvkit python external library for data wrangling in linux shell and some basic linux terminal built in command. For executing this repository in your machine you must have python virtual environment . And activate it using source bin/activate from your local terminal. </p>
+<div style="text-align:justify; font-size:13px; font-family:Arial">
+This repository contained necessary script to turn raw data (data.zip) about traffic ecommerce into data_clean.csv which contain purchasing data only. This project done by using csvkit python external library for data wrangling in linux shell and some basic linux terminal built in command. For executing this repository in your machine you must have python virtual environment . And activate it using source bin/activate from your local terminal. 
+</div>
 
 ![Alt text](image/table.jpg)
 
@@ -12,7 +13,7 @@ This repository contained necessary script to turn raw data (data.zip) about tra
 
 ![Alt text](image/raw%20data.jpg)
 
- - `a`  : describe index number for every traffic ecommerce event
+ - `a`  : describe index number for every traffic  ecommerce event
  - `event_time` : describe time-stamp of the event
  - `event_type` : describe the type of the event view and purchase, 
  - `product_id` : describe the product id being accessed
@@ -24,11 +25,9 @@ This repository contained necessary script to turn raw data (data.zip) about tra
  - `user_session` : describe user session of that event
 
 <p style="text-align:justify; font-size:13px; font-family:Arial">and make “data_clean.csv” from both csv file which contail column as follows :</p>
-<br>
 
 |event_time|event_type|product_id|category|brand|price|category|product_name|
 |:---:|:----:|:---:|:---:|:---:|:---:|:---:|:---:|
-<br>
 
 - `event_time` : will be contain time-stamp of the event purchase
 - `event_type` : will be contain purchase all
