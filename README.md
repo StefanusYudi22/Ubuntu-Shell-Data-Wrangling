@@ -54,12 +54,13 @@ and then make `data_clean.csv` of purchasing data from both csv file which conta
 
 ## How To Use This Repository
 
-1.	Make sure you’ve install `python`, and `pip` in your local device
-2.	Install `csvkit` by executing `pip install csvkit` inside your terminal
-3.	Install `unzip` command in linux terminal by executing `sudo apt-get install unzip` you will be prompted input password
+1.	make sure you’ve install `python`, and `pip` in your local device
+2.	install `csvkit` by executing `pip install csvkit` inside your terminal
+3.	install `unzip` command in linux terminal by executing `sudo apt-get install unzip` you will be prompted input password
 4.	clone this repository into your local machine, you will get `Ubuntu-Shell-Data-Wrangling` repository folder
 5.	download [data.zip](https://drive.google.com/file/d/1rKkUQU-sXIDka3rVNBahp6q3wDhrPY-1/view>) into your local machine and place in  `data` folder in the `Ubuntu-Shell-Data-Wrangling` repository folder
-6.	Execute the `traffic-ecommerce-cleaner.sh`
+6.  Delete the already exists file `data_clean.csv` in cloned `data` directory folder
+7.	Execute the `traffic-ecommerce-cleaner.sh`
 
 Note :<br>
 >If you don’t want to install `csvkit`, you can activate virtual environment in `virtual_wrangling` folder by executing `virtual_wrangling/bin/activate` from the repository folder, but you’ve to install python [virtualenv first](https://pypi.org/project/virtualenv/) to your local device
