@@ -36,21 +36,22 @@ and then make `data_clean.csv` of purchasing data from both csv file which conta
 - `product_name` : will be contain name of the purchased product
 
 ## Project Step by Step
-1. Prepare the necessary requirement for this program 
+1. prepare the necessary requirement for this program 
 `python` `pip` `csvkit` `unzip` `virtualenv`
-2. Create `traffic-ecommerce-cleaner.sh` file then make it executable
-3. Create `data` directory folder at the same directory of `traffic-ecommerce-cleaner.sh`. 
-4. Download [data.zip](https://drive.google.com/file/d/1rKkUQU-sXIDka3rVNBahp6q3wDhrPY-1/view>) from this google drive and place the zip file in the `data` folder 
-5. Make `traffic-ecommerce-cleaner.sh` with following flow chart
+2. create `traffic-ecommerce-cleaner.sh` file then make it executable
+3. create `data` directory folder at the same directory of `traffic-ecommerce-cleaner.sh`. 
+4. download [data.zip](https://drive.google.com/file/d/1rKkUQU-sXIDka3rVNBahp6q3wDhrPY-1/view>) from this google drive and place the zip file in the `data` folder 
+5. make `traffic-ecommerce-cleaner.sh` with following flow chart
 
 ![Alt text](image/flowchart.jpg)
 
-6. Execute the `traffic-ecommerce-cleaner.sh`
-7. Finally there will be this output in local terminal
+6. execute the `traffic-ecommerce-cleaner.sh`
+7. finally there will be this output in local terminal
 
 ![Alt text](image/table2.jpg)
 
-8. If `data_clean.csv` isn’t available in `data` directory before executing `traffic-ecommerce-cleaner.sh`, there will be `data_clean.csv` in `data` directory after executing the `traffic-ecommerce-cleaner.sh`
+8. if `data_clean.csv` isn’t available in `data` directory before executing `traffic-ecommerce-cleaner.sh`, there will be `data_clean.csv` in `data` directory after executing the `traffic-ecommerce-cleaner.sh`
+9. create virtual environment `virtual_wrangling` and install `csvkit` inside
 
 ## How To Use This Repository
 
@@ -59,11 +60,13 @@ and then make `data_clean.csv` of purchasing data from both csv file which conta
 3.	install `unzip` command in linux terminal by executing `sudo apt-get install unzip` you will be prompted input password
 4.	clone this repository into your local machine, you will get `Ubuntu-Shell-Data-Wrangling` repository folder
 5.	download [data.zip](https://drive.google.com/file/d/1rKkUQU-sXIDka3rVNBahp6q3wDhrPY-1/view>) into your local machine and place in  `data` folder in the `Ubuntu-Shell-Data-Wrangling` repository folder
-6.  Delete the already exists file `data_clean.csv` in cloned `data` directory folder
-7.	Execute the `traffic-ecommerce-cleaner.sh`
+6.  delete the already exists file `data_clean.csv` in cloned `data` directory folder
+7.	execute the `traffic-ecommerce-cleaner.sh`
+
+![Alt text](image/result%20executed.jpg)
 
 Note :<br>
->If you don’t want to install `csvkit`, you can activate virtual environment in `virtual_wrangling` folder by executing `virtual_wrangling/bin/activate` from the repository folder, but you’ve to install python [virtualenv first](https://pypi.org/project/virtualenv/) to your local device
+>If you don’t want to install `csvkit`, you can activate virtual environment in `virtual_wrangling` folder by executing `source virtual_wrangling/bin/activate` from the repository folder, but you’ve to install python [virtualenv first](https://pypi.org/project/virtualenv/) to your local device
 
 ## Suggestion
 It is more interesting if the data could come from online traffic ecommerce data which updated every minute or second, and we could build an interactive dashboard from it.
