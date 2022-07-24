@@ -1,4 +1,5 @@
 <h1 align="center">Data Cleaning In Linux Shell</h1>
+<p align="center"><text>Stefanus Yudi Irwan | Pacmann User Name : stefanus-flri</text></p>
 
 This repository contained necessary script to turn __raw data__ [_(data.zip)_](https://drive.google.com/file/d/1rKkUQU-sXIDka3rVNBahp6q3wDhrPY-1/view>) about traffic ecommerce into _data_clean.csv_ which contain __purchasing data__ only. This project done by using [`csvkit`](https://pypi.org/project/csvkit/) python external library for data wrangling in shell and some basic linux terminal built in command. 
 
